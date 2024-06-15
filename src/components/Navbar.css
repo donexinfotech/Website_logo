@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.navbar-logo Link {
+.navbar-logo a {
   color: #fff;
   font-size: 1.5rem;
   text-decoration: none;
@@ -25,13 +25,13 @@
   font-style: normal;
 }
 
-.navbar-item Link {
+.navbar-item a {
   color: #fff;
   text-decoration: none;
 }
 
 .navbar-item a:hover {
   text-decoration: underline;
-  text-decoration-color: yellow;
+  text-decoration-color: #ff6347;
   text-decoration-thickness: 3px;
 }

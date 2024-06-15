@@ -6,23 +6,23 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/" spy={true} smooth={true} offset={50} duration={500}>LOGO</Link>
+        <a href='/'>LOGO</a>
       </div>
       <ul className="navbar-links">
         <li className="navbar-item">
-          <Link to="/" spy={true} smooth={true} offset={50} duration={500}>Home</Link>
+          <a href='/'>Home</a>
         </li>
         <li className="navbar-item">
-          <Link to="/" spy={true} smooth={true} offset={50} duration={500}>About</Link>
+          <a href='/'>About</a>
         </li>
         <li className="navbar-item">
-          <Link to="/" spy={true} smooth={true} offset={50} duration={500}>Services</Link>
+          <a href='/'>Services</a>
         </li>
         <li className="navbar-item">
-          <Link to="/" spy={true} smooth={true} offset={50} duration={500}>Contact Us</Link>
+          <a href='/'>Contact Us</a>
         </li>
         <li className="navbar-item">
-          <Link to="/" spy={true} smooth={true} offset={50} duration={500}>Demo</Link>
+          <a href='/'>Demo</a>
         </li>
       </ul>
     </nav>
