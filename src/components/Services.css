@@ -7,6 +7,9 @@
   }
   
   .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1 1 calc(33.333% - 1rem); 
     box-sizing: border-box; 
     background-color: black;
@@ -17,10 +20,13 @@
     padding: 0 60px 0 60px;
   }
   .sc-btn{
-    margin-left: 122px;
+    position: absolute;
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
   }
   .card-title{
-    margin-left: 142px;
+    text-align: center;
   }
   .card-img-top{
     width: 50%;
