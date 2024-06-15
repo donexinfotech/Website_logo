@@ -9,14 +9,18 @@
   .card {
     flex: 1 1 calc(33.333% - 1rem); 
     box-sizing: border-box; 
-    background-color: white;
+    background-color: black;
     color: white;
   }
+  .card-text{
+    text-align: center;
+    padding: 0 60px 0 60px;
+  }
   .sc-btn{
-    margin-left: 110px;
+    margin-left: 122px;
   }
   .card-title{
-    margin-left: 130px;
+    margin-left: 142px;
   }
   .card-img-top{
     width: 50%;
