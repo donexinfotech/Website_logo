@@ -1,30 +1,14 @@
 import './App.css';
+import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom"; 
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <div>
-      <Navbar/>
-    </div>,
-  },
-  {
-    path: "/about",
-    element: <div>
-            <Navbar/>
-            Hello
-    </div>,
-  }
-]);
+import About from './components/About';
 
 function App() {
   return (
     <>
-    <RouterProvider router={router} />
+    <Navbar/>
+    <Hero/>
+    <About/>
     </>
   );
 }

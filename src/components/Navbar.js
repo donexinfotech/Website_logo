@@ -1,28 +1,28 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">LOGO</Link>
+        <Link to="/" spy={true} smooth={true} offset={50} duration={500}>LOGO</Link>
       </div>
       <ul className="navbar-links">
         <li className="navbar-item">
-          <Link to="/">Home</Link>
+          <Link to="/" spy={true} smooth={true} offset={50} duration={500}>Home</Link>
         </li>
         <li className="navbar-item">
-          <Link to="/about">About</Link>
+          <Link to="/" spy={true} smooth={true} offset={50} duration={500}>About</Link>
         </li>
         <li className="navbar-item">
-          <Link to="/about">Services</Link>
+          <Link to="/" spy={true} smooth={true} offset={50} duration={500}>Services</Link>
         </li>
         <li className="navbar-item">
-          <Link to="/contact">Contact Us</Link>
+          <Link to="/" spy={true} smooth={true} offset={50} duration={500}>Contact Us</Link>
         </li>
         <li className="navbar-item">
-          <Link to="/contact">Demo</Link>
+          <Link to="/" spy={true} smooth={true} offset={50} duration={500}>Demo</Link>
         </li>
       </ul>
     </nav>

@@ -1,0 +1,46 @@
+*{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+.btn{
+    background-color: #ff6347;
+    color: yellow;
+    border-radius: 2%;
+    border-color: black;
+    border-width: 2px;
+}
+h1{
+    margin-top: 1.2rem;
+    text-align: center;
+    color: #ff6347;
+    font-weight: bold;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 65px auto 20px;
+}
+h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.content{
+    flex: 1;
+    width: 600px;
+    margin: 0 20px;
+}
+.pic{
+    flex: 1;
+    width: ;
+    margin-left: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
