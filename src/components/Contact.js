@@ -28,11 +28,12 @@ export default function contact() {
                         <input type="integer" id="company" className="form-control" aria-describedby="passwordHelpBlock"/>
 
                         <div class="mb-3 mt-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                     </div>
                 <button type="submit" className="btn btn-primary button">Submit</button>
+                <button type="submit" className="btn btn-primary Wbutton"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
             </div>
         </form>
     </div>
