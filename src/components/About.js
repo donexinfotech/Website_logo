@@ -1,6 +1,39 @@
 import React from 'react'
 import './About.css'
-import img from './images/678.png'
+import IconCloud from "./magicui/icon-cloud.tsx";
+
+const slugs = [
+    "typescript",
+    "javascript",
+    "dart",
+    "java",
+    "react",
+    "flutter",
+    "android",
+    "html5",
+    "css3",
+    "nodedotjs",
+    "express",
+    "nextdotjs",
+    "prisma",
+    "amazonaws",
+    "postgresql",
+    "firebase",
+    "nginx",
+    "vercel",
+    "testinglibrary",
+    "jest",
+    "cypress",
+    "docker",
+    "git",
+    "jira",
+    "github",
+    "gitlab",
+    "visualstudiocode",
+    "androidstudio",
+    "sonarqube",
+    "figma",
+  ];
 
 const About = () => {
     return (
@@ -15,8 +48,8 @@ const About = () => {
                 commodi cupiditate quae, saepe culpa maiores! Reprehenderit iste amet quaerat vel.</p>
                 <button className='btn btn-primary'>Click Here</button>
             </div>
-            <div className="pic">
-                <img src={img} alt="" />
+            <div className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg bg-background px-20 pb-20 pt-8 ">
+            <IconCloud iconSlugs={slugs} />
             </div>
         </div>
         </div>
