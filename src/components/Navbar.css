@@ -35,3 +35,29 @@
   text-decoration-color: #ff6347;
   text-decoration-thickness: 3px;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none; /* Hide navbar links on small screens */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 200px;
+    height: 100vh;
+    padding: 1rem;
+  }
+
+  .navbar-links.open {
+    display: flex; /* Show navbar links when the sidebar is open */
+  }
+
+  .navbar-toggle {
+    display: block; /* Show toggle button on small screens */
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
