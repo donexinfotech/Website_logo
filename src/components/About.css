@@ -1,8 +1,9 @@
-about{
+.about{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: auto;
     font-style: normal;
+    background-color: black;
 }
 .btn{
     background-color: #ff6347;
@@ -33,6 +34,7 @@ h2{
     flex: 1;
     width: 600px;
     margin: 0 20px;
+    color: white;
 }
 .pic{
     flex: 1;
