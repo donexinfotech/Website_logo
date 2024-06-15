@@ -9,7 +9,7 @@
   .card {
     flex: 1 1 calc(33.333% - 1rem); 
     box-sizing: border-box; 
-    background-color: black;
+    background-color: white;
     color: white;
   }
   .sc-btn{
