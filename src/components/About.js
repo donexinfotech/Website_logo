@@ -4,7 +4,7 @@ import img from './images/678.jpg'
 
 const About = () => {
     return (
-        <>
+        <div className='about'>
         <h1>About US</h1>
         <div className="container1">
             <div className="content">
@@ -19,7 +19,7 @@ const About = () => {
                 <img src={img} alt="" />
             </div>
         </div>
-        </>
+        </div>
     )
 }
 

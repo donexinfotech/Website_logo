@@ -1,4 +1,4 @@
-*{
+about{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: auto;
@@ -36,7 +36,6 @@ h2{
 }
 .pic{
     flex: 1;
-    width: ;
     margin-left: 20px;
 }
 img{
