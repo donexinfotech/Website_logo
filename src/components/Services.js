@@ -5,7 +5,7 @@ import img from './images/service0.jpg'
 const Services = () => {
     return (
         <>
-        <h1 className='services-head'>Services</h1>
+        <h1 className='services-head' id='services'>Services</h1>
         <div className='services'>
         <div className="card">
         <img src={img} className="card-img-top" alt=""/>

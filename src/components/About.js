@@ -37,7 +37,7 @@ const slugs = [
 
 const About = () => {
     return (
-        <div className='about'>
+        <div className='about' id='about'>
         <h1>About US</h1>
         <div className="container1">
             <div className="content">
