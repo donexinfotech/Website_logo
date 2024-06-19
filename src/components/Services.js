@@ -1,6 +1,11 @@
 import React from 'react'
 import './Services.css'
 import img from './images/service0.jpg'
+import img1 from './images/service-1.png'
+import img2 from './images/service-2.png'
+import img3 from './images/service-3.png'
+import img4 from './images/service-4.png'
+import img5 from './images/service-5.png'
 
 const Services = () => {
     return (
@@ -8,7 +13,7 @@ const Services = () => {
         <h1 className='services-head' id='services'>Services</h1>
         <div className='services'>
         <div className="card-services">
-        <img src={img} className="card-img-top" alt=""/>
+        <img src={img1} className="card-img-top" alt=""/>
         <div className="card-body">
             <h5 className="card-title">Portfolio Websites</h5>
             <p className="card-text">Designed for artists, photographers, designers, and creative professionals to showcase their work.</p>
@@ -16,7 +21,7 @@ const Services = () => {
         </div>
         </div>
         <div className="card-services">
-        <img src={img} className="card-img-top" alt="..."/>
+        <img src={img2} className="card-img-top" alt="..."/>
         <div className="card-body">
             <h5 className="card-title">Business Websites</h5>
             <p className="card-text">Professional sites to showcase services and contact info, enhancing online presence.</p>
@@ -24,7 +29,7 @@ const Services = () => {
         </div>
         </div>
         <div className="card-services">
-        <img src={img} className="card-img-top" alt="..."/>
+        <img src={img3} className="card-img-top" alt="..."/>
         <div className="card-body">
             <h5 className="card-title">Business App</h5>
             <p className="card-text">Boost productivity with our app's task tracking, expense monitoring, CRM, and inventory management.</p>
@@ -32,7 +37,7 @@ const Services = () => {
         </div>
         </div>
         <div className="card-services">
-        <img src={img} className="card-img-top" alt="..."/>
+        <img src={img4} className="card-img-top" alt="..."/>
         <div className="card-body">
             <h5 className="card-title">Appointment Websites</h5>
             <p className="card-text">Easy-to-use systems for scheduling appointments and reservations.</p>
@@ -40,7 +45,7 @@ const Services = () => {
         </div>
         </div>
         <div className="card-services">
-        <img src={img} className="card-img-top" alt="..."/>
+        <img src={img5} className="card-img-top" alt="..."/>
         <div className="card-body">
             <h5 className="card-title">College Projects</h5>
             <p className="card-text">Discover fun and educational projects that help you learn new things and spark creative ideas.</p>
