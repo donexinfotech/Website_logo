@@ -4,11 +4,9 @@ import './Hero.css'
 const Hero = () => {
     return (
         <div className='hero mt-5' id='home'>
-            <div className='content'>
-                <p>Hero section</p>
-                <p>Lorem, ipsum.</p>
-                <p>Lorem, ipsum dolor.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, veritatis.</p>
+            <div className='content mt-5'>
+                <p>Custom-made IT solutions</p>
+                <p>to meet your business needs.</p>
             </div>
         </div>
     )

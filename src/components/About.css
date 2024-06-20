@@ -4,6 +4,8 @@
     font-weight: auto;
     font-style: normal;
     background-color: black;
+    height: 100vh;
+    overflow: hidden;
 }
 .btn{
     background-color: #ff6347;
@@ -35,6 +37,7 @@ h2{
     width: 600px;
     margin: 0 20px;
     color: white;
+    margin-left: 36px;
 }
 .pic{
     flex: 1;
@@ -88,7 +91,6 @@ button {
     }
   }
   
-  /* Declare shine on hover animation */
   @keyframes hoverShine {
     0%{
       background-image: linear-gradient(135deg, rgba(255,255,255,.4) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
@@ -101,3 +103,58 @@ button {
     }
   }
   
+  .mobile{
+    margin-left: 76px;
+    margin-right: 36px;
+    width: 360px;
+  }
+
+   @media (max-width:940px) {
+    
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile {
+        margin-bottom: 20px;
+    }
+
+    .content {
+        max-width: 292px;
+        text-align: left;
+    }
+
+    h1, h2 {
+        color: #ff6347;
+    }
+
+    p {
+        font-size: 16px;
+        color: #666;
+        line-height: 1.5;
+    }
+
+    .btn {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+  }

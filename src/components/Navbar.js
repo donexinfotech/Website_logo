@@ -41,12 +41,15 @@ const Navbar = () => {
     };
   }, []);
 
+  const[collapse, setCollapse] = useState(true)
+  const handleNavCollapse = () => setCollapse(!collapse);
+
   return (
     <>
-      <nav className="navbar navbar-expand-lg fixed-top bg-body-tertiary card shadow-lg navbar-custom">
+      <nav className="d-flex navbar navbar-expand-lg fixed-top bg-body-tertiary card shadow-lg navbar-custom">
         <div className="container-fluid">
           <a className="navbar-brand ml" href="/#" onClick={(e) => scrollToSection('home', e, setActiveSection)}>Logo</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={!collapse} aria-label="Toggle navigation" onClick={handleNavCollapse}>
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse nav-flex mr" id="navbarSupportedContent">
