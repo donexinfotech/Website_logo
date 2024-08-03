@@ -73,6 +73,7 @@ export default function Contact() {
               id="phoneNumber"
               className="form-control"
               name="phoneNumber"
+              required
             />
 
             <label htmlFor="company" className="form-label mt-3">Company</label>
